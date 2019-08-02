@@ -1,6 +1,6 @@
 // 按键组件
 // aisedButton ：凸起的按钮，其实就是 Material Design 风格的 Button
-// FlatButton ：扁平化的按钮，没有阴影，有水波纹dialog和toolbar可以用
+// FlatButton ：扁平化的按钮
 // OutlineButton：线框按钮
 // IconButton ：图标按钮
 // ButtonBar：按钮组
@@ -138,10 +138,10 @@ class buttonbody extends StatelessWidget {
             height: 50,
           ),
           RaisedButton(
-            child: Text("圆角红底白字50 影"),
+            child: Text("圆角红底白字55 影"),
             color: Colors.red,
             textColor: Colors.white,
-            elevation: 50,
+            elevation: 55,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10),
             ),
@@ -189,18 +189,6 @@ class buttonbody extends StatelessWidget {
             foregroundColor: Colors.white,
             backgroundColor: Colors.amber,
             child: new Icon(Icons.add),
-          ),
-          FloatingActionButton.extended(
-            foregroundColor: Colors.white,
-            backgroundColor: Colors.blue,
-            label: Text("长悬浮按键extended"),
-            tooltip: "long 悬浮按键",
-            icon: Icon(
-              Icons.arrow_right,
-              size: 50,
-              color: Colors.red,
-            ),
-            onPressed: (null),
           ),
         ],
       ),

@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: MyHomePage(title: 'Flutter学习'),
+      home: MyHomePage(title: 'homepage'),
       routes: <String, WidgetBuilder>{
         sqfliteRoute: (BuildContext context) => SqflitePage(),
       },

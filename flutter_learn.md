@@ -84,6 +84,13 @@ iOS 在 ios ▸  Runner ▸  Info.plist 中修改CFBundleName对应的Value
 
 ## 图标
 
+AndroidManifest.xml
+  <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="耦荷DEMO"
+        android:icon="@mipmap/logo">
+        <!-- 已经修改的 -->
+
 Android 在android ▸  app ▸  src ▸ res ▸ mipmap-... 文件夹中替换相应图片  
 iOS 在 ios ▸  Runner ▸ Assets.xcassets ▸ AppIcon.appiconset文件夹中替换相应尺寸的图片， 如果使用不同的文件名，那还必须更新同一目录中的Contents.json文件。
 
@@ -94,6 +101,9 @@ Android 在android ▸  app ▸  src ▸ res ▸ drawable ▸ launch_background.
 iOS 在 ios ▸  Runner ▸ Assets.xcassets ▸ LaunchImage.imageset文件夹中替换相应尺寸的图片， 如果使用不同的文件名，那还必须更新同一目录中的Contents.json文件。
 
 
+# 连接数据库
+挂在aws的phpmyadmin 连接RDS  
+服务端放php文件
 
 
 

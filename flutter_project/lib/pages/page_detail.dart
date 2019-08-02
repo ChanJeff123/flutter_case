@@ -21,12 +21,13 @@ class _PageDetailState extends State<PageDetail> {
                 width: MediaQuery.of(context).size.width,
                 child: Hero(tag: 'my-hero', child: FlutterLogo()),
               ),
+              // 返回按键
               RaisedButton(
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
                 child: Text('Back'),
-              )
+              ),
             ],
           ),
         ),
